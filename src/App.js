@@ -1,6 +1,5 @@
 import React,{Component} from 'react';
 import tachyons from "tachyons";
-import Input from "./Input";
 import "./index.css"
 
 class App extends Component{
