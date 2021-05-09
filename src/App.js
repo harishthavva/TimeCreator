@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import tachyons from "tachyons";
 import Input from "./Input";
-import "./index.css";
+import "./index.css"
 
 class App extends Component{
   date= new Date()
@@ -44,11 +44,10 @@ class App extends Component{
       },1000)
 
   }
-
   render(){
     return(
       <div className="tc modify">
-        <h2>{`Current Time ${this.date}`}</h2>
+      <h1><marquee direction = "right">{`Current Time in INDIA ${this.date}`}</marquee></h1>
         <h4>Please Enter the date on which the Timer Ends !!!</h4>
         <h2>{`Remaining Time Period :- ${this.state.days}Days ${this.state.hours}Hours ${this.state.minutes}Minutes ${this.state.seconds}Seconds`}</h2>
         <input className="pa2 bg-light-green" type="date" placeholder="Enter date in MM-DD-YEAR Formate" onChange={this.onChange}/>
