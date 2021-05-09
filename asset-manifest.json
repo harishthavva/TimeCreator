@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/Timer-Project/static/css/main.368916b7.chunk.css",
-    "main.js": "/Timer-Project/static/js/main.ebd08674.chunk.js",
-    "main.js.map": "/Timer-Project/static/js/main.ebd08674.chunk.js.map",
+    "main.js": "/Timer-Project/static/js/main.56032e66.chunk.js",
+    "main.js.map": "/Timer-Project/static/js/main.56032e66.chunk.js.map",
     "runtime-main.js": "/Timer-Project/static/js/runtime-main.77f556aa.js",
     "runtime-main.js.map": "/Timer-Project/static/js/runtime-main.77f556aa.js.map",
     "static/css/2.fe359a49.chunk.css": "/Timer-Project/static/css/2.fe359a49.chunk.css",
-    "static/js/2.00367c08.chunk.js": "/Timer-Project/static/js/2.00367c08.chunk.js",
-    "static/js/2.00367c08.chunk.js.map": "/Timer-Project/static/js/2.00367c08.chunk.js.map",
+    "static/js/2.b9b78b9b.chunk.js": "/Timer-Project/static/js/2.b9b78b9b.chunk.js",
+    "static/js/2.b9b78b9b.chunk.js.map": "/Timer-Project/static/js/2.b9b78b9b.chunk.js.map",
     "static/js/3.9b335f3d.chunk.js": "/Timer-Project/static/js/3.9b335f3d.chunk.js",
     "static/js/3.9b335f3d.chunk.js.map": "/Timer-Project/static/js/3.9b335f3d.chunk.js.map",
     "index.html": "/Timer-Project/index.html",
     "static/css/2.fe359a49.chunk.css.map": "/Timer-Project/static/css/2.fe359a49.chunk.css.map",
     "static/css/main.368916b7.chunk.css.map": "/Timer-Project/static/css/main.368916b7.chunk.css.map",
-    "static/js/2.00367c08.chunk.js.LICENSE.txt": "/Timer-Project/static/js/2.00367c08.chunk.js.LICENSE.txt"
+    "static/js/2.b9b78b9b.chunk.js.LICENSE.txt": "/Timer-Project/static/js/2.b9b78b9b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.77f556aa.js",
     "static/css/2.fe359a49.chunk.css",
-    "static/js/2.00367c08.chunk.js",
+    "static/js/2.b9b78b9b.chunk.js",
     "static/css/main.368916b7.chunk.css",
-    "static/js/main.ebd08674.chunk.js"
+    "static/js/main.56032e66.chunk.js"
   ]
 }
