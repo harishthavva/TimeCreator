@@ -46,7 +46,7 @@ class App extends Component{
   render(){
     return(
       <div className="tc modify">
-      <h1><marquee direction = "right">{`Current Time in INDIA ${this.date}`}</marquee></h1>
+      <h1>{`Current Time in INDIA ${this.date}`}</h1>
         <h4>Please Enter the date on which the Timer Ends !!!</h4>
         <h2>{`Remaining Time Period :- ${this.state.days}Days ${this.state.hours}Hours ${this.state.minutes}Minutes ${this.state.seconds}Seconds`}</h2>
         <input className="pa2 bg-light-green" type="date" placeholder="Enter date in MM-DD-YEAR Formate" onChange={this.onChange}/>
