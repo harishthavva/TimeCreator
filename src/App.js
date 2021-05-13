@@ -1,6 +1,8 @@
 import React,{Component} from 'react';
 import tachyons from "tachyons";
 import "./index.css"
+import {Navbar, Nav, NavItem} from 'react-bootstrap';
+
 
 class App extends Component{
   x;
@@ -27,7 +29,7 @@ class App extends Component{
     
    x= setInterval(()=>{
       var now = new Date().getTime();
-      if(this.state.searchFiled!=""){
+      if(this.state.searchFiled!==""){
         var countTime=new Date(this.state.searchFiled).getTime()
         var distance=countTime-now;
         var days = Math.floor(distance / (1000 * 60 * 60 * 24));
@@ -63,11 +65,11 @@ class App extends Component{
   }
   render(){
     return(
-      <div className="tc modify">
+      <div className="tc modify ">
       <h1>{`Current Time in INDIA ${this.date}`}</h1>
       <h4>Please Enter the date on which the Timer Ends !!!</h4>
       <input className="pa2 bg-light-green" type="date" placeholder="Enter date in MM-DD-YEAR Formate" onChange={this.onChange}/>
-        {this.state.searchFiled==""? <h2>Remaining Time Period :- 0Days 0Hours 0Minutes 0Seconds</h2> : <h2>{`Remaining Time Period :- ${this.state.days}Days ${this.state.hours}Hours ${this.state.minutes}Minutes ${this.state.seconds}Seconds`}</h2>}
+        {this.state.searchFiled===""? <h2>Remaining Time Period :- 0Days 0Hours 0Minutes 0Seconds</h2> : <h2>{`Remaining Time Period :- ${this.state.days}Days ${this.state.hours}Hours ${this.state.minutes}Minutes ${this.state.seconds}Seconds`}</h2>}
         <span> </span>
       </div>
     )
