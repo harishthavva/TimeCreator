@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/TimerProject/static/css/main.368916b7.chunk.css",
-    "main.js": "/TimerProject/static/js/main.cb662ee7.chunk.js",
-    "main.js.map": "/TimerProject/static/js/main.cb662ee7.chunk.js.map",
-    "runtime-main.js": "/TimerProject/static/js/runtime-main.55eff41a.js",
-    "runtime-main.js.map": "/TimerProject/static/js/runtime-main.55eff41a.js.map",
-    "static/css/2.fe359a49.chunk.css": "/TimerProject/static/css/2.fe359a49.chunk.css",
-    "static/js/2.b9b78b9b.chunk.js": "/TimerProject/static/js/2.b9b78b9b.chunk.js",
-    "static/js/2.b9b78b9b.chunk.js.map": "/TimerProject/static/js/2.b9b78b9b.chunk.js.map",
-    "static/js/3.18b2015f.chunk.js": "/TimerProject/static/js/3.18b2015f.chunk.js",
-    "static/js/3.18b2015f.chunk.js.map": "/TimerProject/static/js/3.18b2015f.chunk.js.map",
-    "index.html": "/TimerProject/index.html",
-    "static/css/2.fe359a49.chunk.css.map": "/TimerProject/static/css/2.fe359a49.chunk.css.map",
-    "static/css/main.368916b7.chunk.css.map": "/TimerProject/static/css/main.368916b7.chunk.css.map",
-    "static/js/2.b9b78b9b.chunk.js.LICENSE.txt": "/TimerProject/static/js/2.b9b78b9b.chunk.js.LICENSE.txt"
+    "main.css": "/TimeCreator/static/css/main.368916b7.chunk.css",
+    "main.js": "/TimeCreator/static/js/main.d92ceb4a.chunk.js",
+    "main.js.map": "/TimeCreator/static/js/main.d92ceb4a.chunk.js.map",
+    "runtime-main.js": "/TimeCreator/static/js/runtime-main.df612693.js",
+    "runtime-main.js.map": "/TimeCreator/static/js/runtime-main.df612693.js.map",
+    "static/css/2.fe359a49.chunk.css": "/TimeCreator/static/css/2.fe359a49.chunk.css",
+    "static/js/2.b9b78b9b.chunk.js": "/TimeCreator/static/js/2.b9b78b9b.chunk.js",
+    "static/js/2.b9b78b9b.chunk.js.map": "/TimeCreator/static/js/2.b9b78b9b.chunk.js.map",
+    "static/js/3.18b2015f.chunk.js": "/TimeCreator/static/js/3.18b2015f.chunk.js",
+    "static/js/3.18b2015f.chunk.js.map": "/TimeCreator/static/js/3.18b2015f.chunk.js.map",
+    "index.html": "/TimeCreator/index.html",
+    "static/css/2.fe359a49.chunk.css.map": "/TimeCreator/static/css/2.fe359a49.chunk.css.map",
+    "static/css/main.368916b7.chunk.css.map": "/TimeCreator/static/css/main.368916b7.chunk.css.map",
+    "static/js/2.b9b78b9b.chunk.js.LICENSE.txt": "/TimeCreator/static/js/2.b9b78b9b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.55eff41a.js",
+    "static/js/runtime-main.df612693.js",
     "static/css/2.fe359a49.chunk.css",
     "static/js/2.b9b78b9b.chunk.js",
     "static/css/main.368916b7.chunk.css",
-    "static/js/main.cb662ee7.chunk.js"
+    "static/js/main.d92ceb4a.chunk.js"
   ]
 }
