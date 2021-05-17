@@ -15,7 +15,8 @@ class App extends Component{
       hours: 0,
       minutes: 0, 
       seconds: 0,
-      ResetClick: false
+      ResetClick: false,
+      Starts:""
     }
   }
   
@@ -31,6 +32,10 @@ class App extends Component{
       var now = new Date().getTime();
       if(this.state.searchFiled!==""){
         var countTime=new Date(this.state.searchFiled).getTime()
+        if(now>countTime){
+          this.setState({Starts:"Timer not starts because of the past date !!!",days:0,hours:0,minutes:0,seconds:0})
+          return ;
+        }
         var distance=countTime-now;
         var days = Math.floor(distance / (1000 * 60 * 60 * 24));
         var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
@@ -68,8 +73,11 @@ class App extends Component{
       <div className="tc modify ">
       <h1>{`Current Time in INDIA ${this.date}`}</h1>
       <h4>Please Enter the date on which the Timer Ends !!!</h4>
-      <input className="pa2 bg-light-green" type="date" placeholder="Enter date in MM-DD-YEAR Formate" onChange={this.onChange}/>
-        {this.state.searchFiled===""? <h2>Remaining Time Period :- 0Days 0Hours 0Minutes 0Seconds</h2> : <h2>{`Remaining Time Period :- ${this.state.days}Days ${this.state.hours}Hours ${this.state.minutes}Minutes ${this.state.seconds}Seconds`}</h2>}
+      <input className="pa2 bg-light-green" type="datetime-local" placeholder="Enter date in MM-DD-YEAR Formate" onChange={this.onChange}/>
+        {this.state.searchFiled===""? <h2>Remaining Time Period :- 0Days 0Hours 0Minutes 0Seconds</h2> : <div>
+        <h1>{this.state.Starts}</h1>
+        <h2>{`Remaining Time Period :- ${this.state.days}Days ${this.state.hours}Hours ${this.state.minutes}Minutes ${this.state.seconds}Seconds`}</h2>
+          </div>}
         <span> </span>
       </div>
     )
